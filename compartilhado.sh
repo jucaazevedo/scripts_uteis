@@ -1,8 +1,6 @@
-rm -rf /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseToolsEAR.ear
-cp /mnt/c/Workspaces/git/suse_tools/SuseToolsEAR/target/SuseToolsEAR-0.0.1-SNAPSHOT.ear /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseToolsEAR.ear
+cp /mnt/c/Compartilhado/EARs/Front/SuseToolsEAR.ear /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseToolsEAR.ear
 
-rm -rf /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseToolsEAR-Batch.ear
-cp /mnt/c/Workspaces/git/suse_tools/SuseToolsEAR-Batch/target/SuseToolsEAR-Batch-0.0.1-SNAPSHOT.ear /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseToolsEAR-Batch.ear
+cp /mnt/c/Compartilhado/EARs/Batch/SuseToolsEAR-Batch.ear /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseToolsEAR-Batch.ear
 
 mv /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseTools-ds.xml.failed /mnt/c/Servers/jboss/wildfly-8.1.0.Final/standalone/deployments/SuseTools-ds.xml.dodeploy
 
