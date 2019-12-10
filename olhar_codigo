@@ -1,0 +1,1 @@
+vi $(find /mnt/c/Users/jazevedo/sistema/suse_tools -type f -name "$1")
